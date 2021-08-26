@@ -1,0 +1,5 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+.text{text-align:center;margin:30px auto;}
+.paper{width:500px;height:500px;margin:0 auto;}
+.paper_box{width:50px;height:50px;box-sizing:border-box;border:1px solid #000;float:left;}
