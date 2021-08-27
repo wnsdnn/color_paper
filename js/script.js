@@ -36,25 +36,7 @@ const dataFilter = (string) => {
 // dataFilter( data1 );
 // dataFilter( data2 );
 // dataFilter( data3 );
-// dataFilter( data4 );
-dataFilter( data5 );
+dataFilter( data4 );
+// dataFilter( data5 );
 
 
-// const box = data.map((ele) => ele);
-// console.log(box[0]);
-// // console.log(s)
-
-// const paper = document.querySelector(".paper");
-// for(let i=0; i<paper.length; i++){
-
-// }
-
-
-// console.log(a)
-// [...a].forEach(element => {
-    
-// });
-
-
-
-// console.log(paper.children.length)
