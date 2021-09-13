@@ -24,19 +24,28 @@ const paper = document.querySelectorAll(".paper .paper_box");
 const dataFilter = (string) => {
     const str = string.replace(/\s*/g, "");
     const arr = str.split("");
+    const dataAry = [];
 
-    arr.map((ele, idx) => {
-        if(ele === "1"){
-            paper[idx].style.background = "#000";
-        }
-    })
-}
+    arr.filter((ele, idx) => { ele === "1" ? dataAry.push(idx) : false });
+
+    searchPaper(dataAry);
+};
+
+
+const searchPaper = (arr) => {
+    // arr[1]
+    let count = 0;
+    arr.forEach(ele => {
+        
+    });
+
+};
 
 
 // dataFilter( data1 );
 // dataFilter( data2 );
-// dataFilter( data3 );
-dataFilter( data4 );
+dataFilter( data3 );
+// dataFilter( data4 );
 // dataFilter( data5 );
 
 
